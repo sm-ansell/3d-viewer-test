@@ -13,12 +13,16 @@
       height: 100vh;           /* Makes the body take full viewport height */
       margin: 0;
       flex-direction: column;
+      font-family: verdana;
+      font-size: 11px;
     }
   </style>
 </head>
 
 <body>
+  <div><b>Controls</b><br>Left Click & Drag: Orbit<br>Right Click & Drag: Pan<br>Scroll: Zoom</div>
+  
   <model-viewer alt="" src="./Wolf.glb" ar environment-image="" poster="" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
 
-  <div>Model viewer package available here: <a href="https://modelviewer.dev/" target="_blank">modelviewer.dev</a></div>
+  <div>Model viewer package available here: <a href="https://modelviewer.dev/" target="_blank">modelviewer.dev</a><br>Preview on mobile device too!</div>
 </body>
